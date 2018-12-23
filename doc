@@ -1,0 +1,18 @@
+1   配置pycharm启动flask参数
+    Additional options
+
+    Parameters of the flask run command.
+    --host – the IP address of the web server to run your Flask application on. The default value is '127.0.0.1'. To make your web server externally visible, use the '0.0.0.0' value for this parameter.
+
+    --port – the port of the web server. The default value is 5000 or it is the port number set in the SERVER_NAME config variable.
+
+    Example:--host=127.0.0.2 --port=1234.
+
+2   设置debug模式
+    LASK_DEBUG
+    Select this checkbox to enable the built-in Flask debug mode. With this mode, the development server will be automatically reloaded on any code change enabling continuous debugging. For more information about Flask debugger, refer to
+3   --host=0.0.0.0   --port 12345
+    默认只能本机访问，设置成所有都能访问   设置启动端口
+4   设置debug模式
+    可以热加载代码
+    export FLASK_ENV=development
